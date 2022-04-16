@@ -30,3 +30,9 @@ To run training of models you should change paths in config files (in case of oc
   'log_name': 'log.txt',
 },
 ```
+
+## Visualizations
+
+![sample1](https://srv4.imgonline.com.ua/result_img/imgonline-com-ua-2to1-ZqGgb5HWWLfC1f.jpg)
+![sample2](https://srv2.imgonline.com.ua/result_img/imgonline-com-ua-2to1-TLvJl66TYWklPkTE.jpg)
+
