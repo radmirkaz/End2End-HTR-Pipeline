@@ -17,3 +17,16 @@ The pipeline is made up of several blocks:
 ## Setup
 
 Use config.py to quickly set parameters and train the model. We used [omegaconf](https://github.com/omry/omegaconf) for more convenience.
+
+To run training of models you should change paths in config files (in case of ocr model you should checge necessary parameters)<br>
+```jsonc
+'paths': {
+  'path_to_images': 'your/path/images/',
+  'path_to_external_images': '',
+
+  'path_to_csv': 'your/path/train.csv',
+
+  'path_to_checkpoints': './submission/checkpoints/',
+  'log_name': 'log.txt',
+},
+```
