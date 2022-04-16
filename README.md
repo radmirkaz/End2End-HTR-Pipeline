@@ -13,3 +13,7 @@ The pipeline is made up of several blocks:
 - OCR: after segmentation we predict each detected word separately
 - Beam search (will be added): final decision making layer to choose the best output given target variables
 - Output: predicted text
+
+## Setup
+
+Use config.py to quickly set parameters and train the model. We used [omegaconf](https://github.com/omry/omegaconf) for more convenience.
